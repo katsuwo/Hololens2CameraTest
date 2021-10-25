@@ -8,6 +8,9 @@ Assets/OpenCVForUnity/
 UWP/
 UWP-temp/
 
+# Rider directory
+.idea/
+
 # Visual Studio cache directory
 .vs/
 
