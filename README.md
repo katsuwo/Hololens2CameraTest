@@ -38,3 +38,14 @@ HoloLensCameraStreamは
 本リポジトリに含まれるHoloLensCameraStream.dllは、上記修正を行いビルドしたもの。
 
 カメラテストの為にカメラアクセスの最低限のコードを記述したシーン"HololensCamTestScene"を作成した。  
+
+
+camnewnham/HoloLensCameraStreamをARM64でビルドする方法：
+2つあるプロジェクト（Dummy , Plugin)のうち、Pluginの最小バージョンを10.0.16229以降に変更する。
+設定はプロジェクトのプロパティから行う。
+上記を行うと、構成マネージャーからARM64が設定できる。
+
+参考URL:
+http://akihiro-document.azurewebsites.net/post/uwp_arm64build/#%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%96%B9%E6%B3%95
+
+
